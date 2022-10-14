@@ -1,7 +1,0 @@
-local Time = .805
-local Plus = 1
-local All = Plus + Time
-game:GetService("ReplicatedStorage").Events.Respawn:FireServer()
-wait(All)
-local text = "Buy Respawn for <font color=\"rgb(100,255,100)\">(0 Robux)</font>"
-game:GetService("Players").LocalPlayer.PlayerGui.HUD.Messages.Use:Fire(text)
